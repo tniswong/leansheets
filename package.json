@@ -1,20 +1,37 @@
 {
-  "name": "angularjs-seed",
-  "description": "A starter project for AngularJS",
-  "repository": "https://github.com/angular/angular-seed",
+  "name": "LeanSheets",
+  "version": "0.0.0",
+  "description": "LeanSheets a tool to visualize team performance",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paulsjv/leansheets.git"
+  },
+  "author": "Jay Paulson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulsjv/leansheets/issues"
+  },
+  "homepage": "https://github.com/paulsjv/leansheets",
   "devDependencies": {
-    "phantomjs": "~1.9",
-    "karma": "~0.10",
-    "karma-junit-reporter": "^0.2.1",
-    "karma-jasmine": "^0.1.5",
-    "karma-ng-scenario": "~0.1",
-    "karma-chrome-launcher": "^0.1.2",
-    "karma-firefox-launcher": "^0.1.3",
+    "time-grunt": "^0.3.1",
+    "load-grunt-tasks": "^0.4.0",
     "grunt": "^0.4.4",
-    "connect": "^2.14.5",
     "grunt-contrib-connect": "^0.7.1",
     "grunt-contrib-watch": "^0.6.1",
-    "load-grunt-tasks": "^0.4.0",
-    "time-grunt": "^0.3.1"
+    "grunt-contrib-clean": "^0.5.0",
+    "karma": "^0.12.14",
+    "grunt-karma": "^0.8.3",
+    "karma-chrome-launcher": "^0.1.3",
+    "karma-firefox-launcher": "^0.1.3",
+    "karma-jasmine": "^0.1.5",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "karma-coverage": "^0.2.1"
+  },
+  "dependencies": {
+    "connect": "^2.14.5"
   }
 }

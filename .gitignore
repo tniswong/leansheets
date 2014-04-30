@@ -1,2 +1,4 @@
-node_modules/
-nodejs/server.js
+node_modules
+bin
+.DS_Store
+app/bower_components

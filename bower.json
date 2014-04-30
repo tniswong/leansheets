@@ -1,0 +1,26 @@
+{
+  "name": "LeanSheets",
+  "version": "0.0.0",
+  "authors": [
+    "Jay Paulson <jay@comparemetrics.com>"
+  ],
+  "description": "LeanSheets a tool for visualizing team performance",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "app/bower_components",
+    "test"
+  ],
+  "dependencies": {
+    "angular": "~1.2.16",
+    "d3": "~3.4.6",
+    "nvd3": "~1.1.15-beta",
+    "angularjs-nvd3-directives": "~0.0.7",
+    "angular-route": "~1.2.16",
+    "moment": "2.5.1",
+    "highcharts-release": "3.0.10",
+    "highcharts-ng": "~0.0.6",
+    "angular-mocks": "~1.2.16"
+  }
+}
