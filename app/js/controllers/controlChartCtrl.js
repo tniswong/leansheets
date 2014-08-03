@@ -4,7 +4,7 @@ angular.module('controlChartCtrl', []).
   controller('ControlChartCtrl', ['$scope', 'DataService', '$window', function($scope, DataService, $window) {
 
   	// $scope.workTypes = ["Display","Defect","CMS","Platform","Expedite"];
-  	$scope.workTypes = ["Standard","Intangable","Fixed Date","Expedite"];
+  	$scope.workTypes = ["Standard","Intangable","Fixed Date","Expedite","Engineering Support"];
   	$scope.workType = $scope.workTypes[0];
 
   	$scope.getWorkType = function(workType) {
@@ -94,7 +94,7 @@ angular.module('controlChartCtrl', []).
     		var line = lines[i].split(",");
     		var obj = {};
     		obj.y = parseInt(line[1]);
-    		obj.name = line[2] + ' - ' + line[3];
+    		obj.name = line[2] + ' - ' + line[3] + '<br/>Start Date: ' + line[4] + '<br/>End Date: ' + line[0];
     		data.endDates.push(i);
     		data.leadTimes.push(obj);
     		leadTimeSum.push(obj.y);
