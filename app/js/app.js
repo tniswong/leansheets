@@ -18,8 +18,8 @@ config(['$routeProvider','DataServiceConfigProvider', function($routeProvider, D
   $routeProvider.when('/charts', {templateUrl: 'partials/charts.html'});
   $routeProvider.otherwise({redirectTo: '/charts'});
 
-  var now = moment("2015-01-01");
-  var end = moment("2015-01-31");
+  var now = moment("2015-02-01");
+  var end = moment("2015-02-28");
 //	var now = moment();
     var d = moment.duration(31, 'days');
 //    now.subtract(d);
